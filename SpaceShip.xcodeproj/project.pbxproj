@@ -12,6 +12,7 @@
 		5D33EBF521C1D36E0013351C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D33EBF321C1D36E0013351C /* Main.storyboard */; };
 		5D33EBF721C1D38A0013351C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D33EBF621C1D38A0013351C /* Assets.xcassets */; };
 		5D33EBFA21C1D38A0013351C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D33EBF821C1D38A0013351C /* LaunchScreen.storyboard */; };
+		5DC1800321C22D350011660C /* SpaceShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC1800221C22D350011660C /* SpaceShip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5D33EBF621C1D38A0013351C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D33EBF921C1D38A0013351C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D33EBFB21C1D38A0013351C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC1800221C22D350011660C /* SpaceShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		5D33EBEE21C1D36D0013351C /* SpaceShip */ = {
 			isa = PBXGroup;
 			children = (
+				5DC1800421C22D3B0011660C /* Model */,
 				5D33EBEF21C1D36D0013351C /* AppDelegate.swift */,
 				5D33EBF121C1D36D0013351C /* ViewController.swift */,
 				5D33EBF321C1D36E0013351C /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				5D33EBFB21C1D38A0013351C /* Info.plist */,
 			);
 			path = SpaceShip;
+			sourceTree = "<group>";
+		};
+		5DC1800421C22D3B0011660C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DC1800221C22D350011660C /* SpaceShip.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC1800321C22D350011660C /* SpaceShip.swift in Sources */,
 				5D33EBF221C1D36D0013351C /* ViewController.swift in Sources */,
 				5D33EBF021C1D36D0013351C /* AppDelegate.swift in Sources */,
 			);
@@ -283,7 +295,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQL59ULZ45;
 				INFOPLIST_FILE = SpaceShip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +314,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQL59ULZ45;
 				INFOPLIST_FILE = SpaceShip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
