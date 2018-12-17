@@ -33,6 +33,7 @@ class ViewController: UIViewController {
         timer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(attack), userInfo: nil, repeats: true)
         timer.fire()
         
+        view.backgroundColor = .gray
     }
     
     @objc func attack() {
