@@ -73,7 +73,7 @@ class ViewController: UIViewController {
    
 
 
-       //minX returns the largest value for the x coordinate of the rectangle
+       //maxX returns the largest value for the x coordinate of the rectangle
         if (spaceView.frame.maxX  > spaceShip.frame.maxX + CGFloat(spaceship.position)) {
             spaceShip.frame.origin.x += CGFloat(spaceship.position)
             print("spaceView.frame.maxX  = \(spaceView.frame.maxX )")
